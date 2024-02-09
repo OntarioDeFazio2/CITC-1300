@@ -5,59 +5,135 @@
    for the important, interesting parts like my Intro page. */
 
 
-body {  
-    background-color:rgb(88, 2, 2);
+/* ---------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Setting basic background color. I like this red alot against the coral. */
+body {
+    background-color: rgb(88, 2, 2);
 }
 
 
+/* Setting the base image limits here. */
 img {
-    display:block;
+    display: block;
     margin: 0 auto;
     width: 80%;
 }
 
+/*Setting the main text and image limits. Inside, text gets a 20% padding and images stay under 50% width.  */
+
+main {
+    padding: 5%;
+    color:#c76006b7;
+    font-size: 25px;
+}
+
+main img {
+    width: 50%;
+}
+
+/* My basic understanding is a is used for links. I've set the links to just stay coral, I like the color. */
+
 a {
-    color:coral;
+    color: coral;
 }
 
 a:hover {
-    color:coral;
+    color: coral;
     text-decoration: none;
 }
 
+/* UL stands for Unordered list. Up here it's global, so I'm setting all Ul's to have no bullet points and 1% padding. */
+
+ul {
+    list-style-type: none;
+    padding: 1%;
+}
+
 /* ID Tag is a # sign. To refer to an ID within my HTML work, I need to use a # then the name of the ID. */
+
+
+/* This ID is Introduction, and to make my special cool intro page, I'm putting most of the text within this special styling. */
 #Introduction {
-    background-color:rgb(88, 2, 2);
+    background-color: rgb(88, 2, 2);
 
-
-    h1,h2,h3, h4, h5, h6 {
+    /* Since I wanted to have special sections, I made them all headers. I could've made 2-5 paragraphs, but this saves ease on me if i change them. */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         text-align: center;
         color: coral;
         font-size: 28px;
         padding: 12%;
         text-shadow: 0px 0px 150px;
     }
+
+    /* With text shadow, the first # is the left-right shadow, the second # is the up-down shadow, and the third # is the "bloom" for lighting. 
+                            Setting it high gives a nice background, but the higher it goes, the less there is. */
+
     header h1 {
         font-size: 75px;
         text-shadow: 1px 1px 75px;
         padding: 15%;
     }
-    
+
+    /* Padding is like extra spacing. */
+
     h6 {
         font-size: 50px;
         text-shadow: 1px 1px 75px;
         padding: 30%;
     }
+
+    img {
+        width: 20%;
+    }
 }
 
-/* Desktop Styles */
 
+/* The lower ID tag section is to help me make my Tri-Column. */
+
+#lower {
+    display: flex;
+    list-style-type: none;
+}
+
+/* Here, I set the style of the Columns */
+
+.col {
+    padding: 10px;
+    margin: 10px;
+    border: 2px, dotted, white;
+    width: 33.33%;
+    border-radius: 10px;
+}
+
+.col img {
+    width: 75%;
+}
+
+
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+hr {
+    width: 95%;
+}
+
+/* The point of having a Nav section is to set aside the navigation links so they look special. I'm really proud of them. */
 
 nav {
     background-color: #ab3f0144;
     text-align: center;
     text-indent: 1%;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 nav ul {
@@ -70,12 +146,11 @@ nav li {
 }
 
 nav li a {
-    color:coral;
+    color: coral;
 }
 
-/* nav li a:hover {
-    color:white;
-} */
 
-   
-
+#info {
+    font-size: 25px;
+    color: coral;
+}
