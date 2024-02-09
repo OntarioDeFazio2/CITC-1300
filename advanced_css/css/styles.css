@@ -53,24 +53,53 @@ ul {
 
 /* ID Tag is a # sign. To refer to an ID within my HTML work, I need to use a # then the name of the ID. */
 
-
+h1 {
+    text-align: center;
+    color: coral;
+    font-size: 28px;
+    padding: 12%;
+    text-shadow: 0px 0px 150px;
+}
+h2 {
+    text-align: center;
+    color: coral;
+    font-size: 28px;
+    padding: 12%;
+    text-shadow: 0px 0px 150px;
+}
+h3 {
+    text-align: center;
+    color: coral;
+    font-size: 28px;
+    padding: 12%;
+    text-shadow: 0px 0px 150px;
+}
+h4 {
+    text-align: center;
+    color: coral;
+    font-size: 28px;
+    padding: 12%;
+    text-shadow: 0px 0px 150px;
+}
+h5 {
+  text-align: center;
+    color: coral;
+    font-size: 28px;
+    padding: 12%;
+    text-shadow: 0px 0px 150px;
+}
+h7 {
+    text-align: center;
+    color: #fb7c0eb0;
+    font-size: 45px;
+    padding: 1%;
+    text-shadow: 10px 10px 50px;
+}
 /* This ID is Introduction, and to make my special cool intro page, I'm putting most of the text within this special styling. */
 #Introduction {
     background-color: rgb(88, 2, 2);
 
-    /* Since I wanted to have special sections, I made them all headers. I could've made 2-5 paragraphs, but this saves ease on me if i change them. */
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        text-align: center;
-        color: coral;
-        font-size: 28px;
-        padding: 12%;
-        text-shadow: 0px 0px 150px;
-    }
+
 
     /* With text shadow, the first # is the left-right shadow, the second # is the up-down shadow, and the third # is the "bloom" for lighting. 
                             Setting it high gives a nice background, but the higher it goes, the less there is. */
@@ -85,7 +114,7 @@ ul {
 
     h6 {
         font-size: 50px;
-        text-shadow: 1px 1px 75px;
+        text-shadow: 1px 1px 15px;
         padding: 30%;
     }
 
@@ -107,7 +136,7 @@ ul {
 .col {
     padding: 10px;
     margin: 10px;
-    border: 2px, dotted, white;
+    border: 7px dashed coral;
     width: 33.33%;
     border-radius: 10px;
 }
