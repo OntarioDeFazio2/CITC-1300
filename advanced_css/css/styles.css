@@ -1,6 +1,11 @@
 /* global styles */
 
-body {
+/* Global styling means whatever I leave in this area will be globally affecting my entire work. All pages, all text, everything. 
+   I think I'm going to use it to my advantage by setting partial global setups for the text and images, but then using special ID tags
+   for the important, interesting parts like my Intro page. */
+
+
+body {  
     background-color:rgb(88, 2, 2);
 }
 
