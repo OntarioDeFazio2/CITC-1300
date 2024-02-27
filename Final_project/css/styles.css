@@ -22,7 +22,7 @@ footer{    padding: 40px 0;  font-size: xx-large;  text-align: center;}
 
 nav ul {
     list-style-type: none;
-    padding: none;
+    padding:0%;
     }
     
     nav li {
